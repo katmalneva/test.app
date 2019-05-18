@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+   <title>What to wear</title>
+
+ </head>
+ <body>
+        <h1> </h1>|
+   <p> Today is <span id="day">day</span>, <span id="date">date</span>, <span id="weather">weather</span> </p>
+   <p> The temperature is <span id="temp_current">temperature</span> degrees Fahrenheit  </p>
+   <p> You should wear </p>
+
+
+   <script type=“text/javascript”>
+    var data = {
+      date: "May 19",
+      day: "Sunday",
+      temp_high: 59,
+      temp_low: 51,
+      temp_current: 55,
+      items: [
+        "heavy-jacket",
+        "rain-pants",
+        "umbrella",
+      ]
+    }
+    print("Today, " + date + " , " + day);
+    document.getElementById("temp_current").innerHTML= data.temp_current;
+
+   </script>
+
+ </body>
+</html>
+
+document.getElementById("temp_current")
+<span id=​"temp_current">​temperature​</span>​
+document.getElementById("temp_current").innerHTML
+"temperature"
+
+document.getElementById("day")
+<span id=​"day">​day​</span>​
+document.getElementById("day").innerHTML
+"day"
+
+document.getElementById("date")
+<span id=​"date">​date​</span>​
+document.getElementById("date").innerHTML
+"date"
